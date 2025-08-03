@@ -22,7 +22,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       // Send email
       const mailOptions = {
         from: validatedData.email,
-        to: 'mohdkaifa91@gmail.com',
+        to: 'manabmallick3345@gmail.com',
         subject: `Portfolio Contact: ${validatedData.subject}`,
         html: `
           <h2>New Portfolio Contact Message</h2>
